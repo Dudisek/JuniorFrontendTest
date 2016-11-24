@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="public/css/styles.css">
+  <title>Github!</title>
+</head>
+<body>
+  <section class="wrapper">
+    <div class="box">
+      <form>
+        <input id="github-input" name="github" placeholder="Search username..."/>
+        <input type="submit" value="Search" class="btn" id="github-submit"/>
+      </form>
+      <div id="github-account">
+        <div id="avatar"></div>
+        <div class="git-info">
+          <div id="login"></div>
+          <div id="name"></div>
+          <div id="bio"></div>
+        </div>
+
+        <h4>Repositories</h4>
+        <hr>
+        <div class="repositories">
+          <ul id="repo-list"></ul>
+        </div>
+
+      </div>
+      <div id="errors"></div>
+    </div>
+    
+  </section>
+
+  <script src="public/js/app.js"></script>
+</body>
+</html>
